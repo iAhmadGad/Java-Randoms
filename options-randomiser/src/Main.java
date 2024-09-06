@@ -6,7 +6,7 @@ import java.util.Scanner;
  *
  */
 
-public class OptionsRandomiser 
+public class Main
 {
 	public static Scanner scanner = new Scanner(System.in);
 	

@@ -12,7 +12,7 @@ public class Main
 	
 	public static String options[] = {"scissors", "paper", "rock"};
 	
-	public RockPaperScissors()
+	public Main()
 	{
 		System.out.print("- Rock Paper Scissors by @iAhmadGad -\nEnter mode and rounds number(singleplayer: s / multiplayer: m - n): ");
 		String mode = scanner.next();
@@ -119,7 +119,7 @@ public class Main
 		boolean run = true;
 		while(run)
 		{
-			new RockPaperScissors();
+			new Main();
 			System.out.print("run - Rock Paper Scissors - again? (y/n): ");
 			String s = scanner.next();
 			if(s.compareTo("y") != 0) run = false;

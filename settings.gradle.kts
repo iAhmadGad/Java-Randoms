@@ -11,4 +11,4 @@ plugins {
 }
 
 rootProject.name = "randoms"
-include("app")
+include("rock-paper-scissors", "tic-tac-toe", "quizzer", "options-randomiser", "guess-number")

@@ -12,7 +12,7 @@ public class Main
 	
 	public static char cells[] = new char[9];
 	
-	public TicTacToe()
+	public Main()
 	{
 		for(byte i = 0; i < 9; i++) cells[i] = (char) (i + 49);
 		System.out.print("- Tic Tac Toe by @iAhmadGad -\nEnter mode (singleplayer: s / multiplayer: m): ");
@@ -144,7 +144,7 @@ public class Main
 		boolean run = true;
 		while(run)
 		{
-			new TicTacToe();
+			new Main();
 			System.out.print("run - Tic Tac Toe - again? (y/n): ");
 			String s = scanner.next();
 			if(s.compareTo("y") != 0) run = false;

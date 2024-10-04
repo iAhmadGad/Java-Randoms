@@ -10,7 +10,7 @@ public class Main
 {
 	public static Scanner scanner = new Scanner(System.in);
 
-	public GuessNumber()
+	public Main()
 	{
 		System.out.print("- Guess Number by @iAhmadGad -\nEnter min and max number(space separeted): ");
 		int min = scanner.nextInt(), max = scanner.nextInt();
@@ -32,7 +32,7 @@ public class Main
 		boolean run = true;
 		while(run)
 		{
-			new GuessNumber();
+			new Main();
 			System.out.print("run - Guess Number - again? (y/n): ");
 			String s = scanner.next();
 			if(s.compareTo("y") != 0) run = false;

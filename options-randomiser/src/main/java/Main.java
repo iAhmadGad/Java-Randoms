@@ -10,7 +10,7 @@ public class Main
 {
 	public static Scanner scanner = new Scanner(System.in);
 	
-	public OptionsRandomiser()
+	public Main()
 	{
 		System.out.print("- Options Randomiser by @iAhmadGad -\nEnter number of options: ");
 		short n = scanner.nextShort();
@@ -25,7 +25,7 @@ public class Main
 		boolean run = true;
 		while(run)
 		{
-			new OptionsRandomiser();
+			new Main();
 			System.out.print("run - Options Randomiser - again? (y/n): ");
 			String s = scanner.next();
 			if(s.compareTo("y") != 0) run = false;

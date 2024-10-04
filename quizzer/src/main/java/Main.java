@@ -10,7 +10,7 @@ public class Main
 {
 	public static Scanner scanner = new Scanner(System.in);
 
-	public Quizzer()
+	public Main()
 	{
 		System.out.print("- Quizzer by @iAhmadGad --- \n");
 		String input = scanner.nextLine(); 
@@ -59,7 +59,7 @@ public class Main
 		boolean run = true;
 		while(run)
 		{
-			new Quizzer();
+			new Main();
 			System.out.print("run - Quizzer - again? (y/n): ");
 			String s = scanner.next();
 			if(s.compareTo("y") != 0) run = false;
